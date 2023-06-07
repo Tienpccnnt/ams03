@@ -1,0 +1,65 @@
+@media screen and (max-width: 1200px) {
+  section > .container {
+    width: 100%;
+  }
+  .name,
+  .img-name {
+    display: none;
+  }
+  #about > .container {
+    width: 100%;
+    padding: 0;
+  }
+  #job-info > .container {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5px;
+  }
+  .job-text .text3 {
+    display: none;
+  }
+  .conten-text {
+    width: 100%;
+  }
+  .nav-conten {
+    display: inline;
+  }
+  .nav-footer li i {
+    padding-top: 5px;
+    height: 50%;
+  }
+  .r3{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .r3 > p:nth-child(3){
+    grid-area: 2/2/3/3;
+  }
+  /* ! digital */
+  .container-fluid {
+    width: 100%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .goal-text,
+  .team-text,
+  .primary-text,
+  .time-text {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .goal-text ul,
+  .team-text ul,
+  .primary-text ul,
+  .time-text ul {
+    padding-left: 1rem;
+  }
+  .top {
+    margin-top: 12px;
+  }
+ 
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width: 767.98px) {
+  section > .container {
+    width: 100%;
+    padding: 5px;
+  }
+  /* !nav-bar */
+  #nav-bar a {
+    display: block;
+    text-align: start;
+    padding-left: 50px;
+  }
+  /* !about */
+  #about > .container {
+    grid-template-columns: 1fr;
+
+    padding: 0;
+  }
+  /* !job */
+  #job-info > .container {
+
+    grid-template-columns: 1fr;
+  }
+/* ! chứng chỉ */
+  .conten-text {
+    grid-template-columns: 1fr;
+  }
+  .nav-conten {
+    display: inline;
+  }
+  .cert-img {
+    width: 100%;
+    height: 60%;
+  }
+  .nav-conten:nth-child(2) {
+    border-left: 0;
+    padding-left: 0;
+    border-top: 2px solid #d6c08d;
+  }
+  .nav-conten:nth-child(3){
+    grid-column: auto;
+  }
+  .nav-project {
+    grid-template-columns: 1fr;
+  }
+  .about-cv ul li {
+    display: block;
+  }
+  /* !footer */
+  .nav-footer {
+    text-align: start;
+    padding-left: 80px;
+  }
+  .nav-footer li i {
+    text-align: center;
+    scale: 1;
+  }
+  .nav-footer li {
+    display: block;
+  }
+  /* !dự án */
+  .about-cv ul{
+    display: block;
+    padding-left: 5px;
+  }
+  /* !digital */
+  .container-fluid {
+    width: 100%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .goal-text,
+  .team-text,
+  .primary-text,
+  .time-text {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .goal-text ul,
+  .team-text ul,
+  .primary-text ul,
+  .time-text ul {
+    padding-left: 1rem;
+  }
+  .top{
+    margin-top: 12px;
+  }
+}
